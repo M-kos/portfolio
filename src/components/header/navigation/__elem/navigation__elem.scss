@@ -1,0 +1,20 @@
+.navigation__elem {
+    height: 100%;
+    padding: 0 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    
+    &:hover {
+        transition: .5s;
+        background-color: rgba(150, 145, 145, .5);
+    }
+
+    .navigation__elem-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(43, 43, 43);
+    }
+}

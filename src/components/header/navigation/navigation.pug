@@ -1,8 +1,8 @@
 include __elem/navigation__elem.pug
 
-- var nav = ['Home', 'About', 'Experience', 'Work', 'Contact'];
+- var nav = ['home', 'about', 'experience', 'work', 'contact'];
 
 nav.navigation
-    ul
+    ul.navigation-list
         each val in nav
             +nav-elem(val)

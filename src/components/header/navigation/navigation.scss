@@ -1,0 +1,16 @@
+.navigation {
+    width: 40vw;
+    height: 100%;
+
+    .navigation-list {
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+@import './__elem/navigation__elem.scss';

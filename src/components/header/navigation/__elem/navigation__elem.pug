@@ -1,2 +1,3 @@
 mixin nav-elem(title)
- li.navigation__elem= title
+    li.navigation__elem
+        a(class='navigation__elem-link' href="#"+title)= title
