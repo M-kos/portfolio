@@ -1,0 +1,8 @@
+include __elem/navigation__elem.pug
+
+- var nav = ['Home', 'About', 'Experience', 'Work', 'Contact'];
+
+nav.navigation
+    ul
+        each val in nav
+            +nav-elem(val)
