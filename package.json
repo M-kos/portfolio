@@ -1,5 +1,5 @@
 {
-  "name": "toxin",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,17 +8,9 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/M-kos/toxin.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/M-kos/toxin/issues"
-  },
-  "homepage": "https://github.com/M-kos/toxin#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",

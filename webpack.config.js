@@ -59,11 +59,11 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin ({ 
-            filename: 'index.html',
-            template: path.resolve(__dirname, './src/index.html')
+            filename: 'index.pug',
+            template: path.resolve(__dirname, './src/index.pug')
         }),
         new MiniCssExtractPlugin({
-            filename: 'css/style.css'
+            filename: 'css/style.scss'
         }),
         new webpack.ProvidePlugin({
             $: 'jquery',
