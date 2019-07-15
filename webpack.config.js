@@ -37,14 +37,14 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+                use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
             },
             {
                 test: /\.(jpg|png|svg)$/,
                 loader: 'file-loader',
                 exclude: /fonts/,
                 options: {
-                    name: 'images/[name].[ext]'
+                    name: '/images/[name].[ext]'
                 },
             },
             {
@@ -52,7 +52,7 @@ module.exports = {
                 loader: 'file-loader',
                 exclude: /Icons/,
                 options: {
-                    name: 'fonts/[name].[ext]'
+                    name: '/fonts/[name].[ext]'
                 },
             }
         ]
@@ -63,7 +63,7 @@ module.exports = {
             template: path.resolve(__dirname, './src/index.pug')
         }),
         new MiniCssExtractPlugin({
-            filename: './css/style.css'
+            filename: 'css/style.css'
         }),
         new webpack.ProvidePlugin({
             $: 'jquery',
@@ -71,7 +71,7 @@ module.exports = {
         })
     ],
     devServer: {
-        contentBase: path.resolve(__dirname, './dist'),
+        contentBase: path.join(__dirname, './dist'),
         port: 3200,
         overlay: true,
         open: true

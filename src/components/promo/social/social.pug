@@ -1,0 +1,11 @@
+- var icons = ["icon-whatsapp", "icon-vk", "icon-skype", "icon-git"];
+- var links = ["none", "https://vk.com/id323080133", "none", "none"];
+
+
+mixin socials(ind, val)
+    a.social__elem(href= ""+ind)
+        span(class= val)
+
+.social
+    each val, index in icons
+        +socials(links[index], val)

@@ -1,0 +1,11 @@
+.promo {
+    padding: 15vw 10vw;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./components/promo/img/puppy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import './__description/promo__description.scss';
+@import './social/social.scss';
