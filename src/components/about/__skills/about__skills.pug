@@ -1,13 +1,12 @@
--var skills = {85:'HTML', 75:'CSS', 65:'JavaScript', 35:'Photoshop'};
-//- -var skillLevels = [85, 75, 65, 35];
+-var skills = {35:'photoshop', 65:'javascript', 75:'css', 85:'html'};
 
 mixin skill(name, value)
     li(class="about_skills skill")
         h3(class="about_skills skill-name")= name
         p(class="about_skills skill-value")= value + "%"
         div(class="about_skills outer-strip")
-            div(class="about_skills inner-strip")
+            div(class="about_skills inner-strip " + name)
 
-ul(class="about_skills")
+ul(class="about__skills")
     each val, index in skills
         +skill(val, index)

@@ -1,0 +1,17 @@
+.about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 5vw;
+    grid-row-gap: 2vw;
+    grid-template-areas: 
+    "title description"
+    "title skills";
+    padding: 5vw 10vw;
+    box-sizing: border-box;
+    color: $font-color;
+}
+@import './__title/about__title.scss';
+@import './__description/about__description.scss';
+@import './__skills/about__skills.scss';
