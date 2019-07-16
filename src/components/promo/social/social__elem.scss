@@ -3,4 +3,7 @@
     cursor: pointer;
     text-decoration: none;
     color: $font-color;
+    &:hover {
+        color: rgb(177, 177, 177);
+    }
 }
