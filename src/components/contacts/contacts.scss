@@ -1,0 +1,12 @@
+.contacts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-column-gap: 5vw;
+    padding: 10vh 10vw;
+    box-sizing: border-box;
+    color: $font-color;
+    background-color: rgb(214, 214, 214);
+}
+@import './__title/contacts__title.scss';
+@import './__description/contacts__description.scss';
