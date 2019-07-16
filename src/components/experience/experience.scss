@@ -3,10 +3,10 @@
     display: grid;
     grid-template-columns: 20% 1fr;
     grid-column-gap: 5vw;
-    padding: 5vw 10vw;
+    padding: 10vh 10vw;
     box-sizing: border-box;
     color: $font-color;
-    background-color: rgb(224, 215, 215);
+    background-color: rgb(214, 214, 214);
 }
 @import './__title/experience__title.scss';
 @import './__companies/experience__companies.scss';
