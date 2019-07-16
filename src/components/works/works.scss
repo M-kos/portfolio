@@ -1,0 +1,12 @@
+.works {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-column-gap: 5vw;
+    padding: 5vw 10vw;
+    box-sizing: border-box;
+    color: $font-color;
+}
+
+@import './__title/works__title.scss';
+@import './__gallery/works__gallery.scss';
