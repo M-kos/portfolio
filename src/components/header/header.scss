@@ -8,7 +8,10 @@
     padding: 0 5vw;
     border-bottom: 1px solid gray;
     position: fixed;
-    transition: 0.5s;
+    // transition: display 0.5s;
+    transition-property: background-color,opacity;
+    transition-duration: 0.5s;
+
 }
 @import './__logo/header__logo.scss';
 @import './navigation/navigation.scss';
