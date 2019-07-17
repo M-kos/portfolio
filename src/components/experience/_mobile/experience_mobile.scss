@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .experience {
+        grid-template-columns: 1fr;
+        grid-row-gap: 5vh;
+        padding: 10vh 10vw;
+    }
+    .experience__title {
+        text-align: center;
+    }
+}
