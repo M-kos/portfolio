@@ -1,5 +1,7 @@
 .promo__description {
     width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
     font-size: 1.5em;
     color: $font-color;
     border-bottom: 1px solid $font-color;

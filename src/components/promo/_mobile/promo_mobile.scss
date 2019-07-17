@@ -1,6 +1,13 @@
 @media screen and (max-width: 1200px) {
     .promo {
         background-image: url(./components/promo/img/ob2.jpg);
+        padding-left: 5vw;
+    }
+    .social {
+        font-size: 1.5em;
+    }
+    .promo__description {
+        font-size: 1.2em;
     }
 }
 
@@ -8,16 +15,26 @@
     .promo {
         background-image: url(./components/promo/img/ob3.jpg);
     }
+    .social__elem {
+        padding-right: 2vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .promo {
         background-image: url(./components/promo/img/ob4.jpg);
+        padding-left: 10vw;
+        padding-top: 17vh;
     }
 }
 
 @media screen and (max-width: 576px) {
     .promo {
         background-image: url(./components/promo/img/ob5.jpg);
+        padding-left: 15vw;
+        padding-top: 25vh;
+    }
+    .social__elem {
+        padding-right: 4vw;
     }
 }
