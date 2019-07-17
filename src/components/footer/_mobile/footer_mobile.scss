@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px) {
+    .footer__logo {
+        font-size: 1em;
+    }
+    .footer__created-text {
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .footer__logo {
+        font-size: 0.8em;
+    }
+    .footer__created-text {
+        font-size: 0.7em;
+    }
+}
