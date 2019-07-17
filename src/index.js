@@ -1,6 +1,12 @@
 // import 'normalize.css';
 import './style.scss';
 
-import ToggleMenu from './components/header/_mobile/header_mobile';
+import Header from './components/header/header';
 
-ToggleMenu();
+// import ToggleMenu from './components/header/_mobile/header_mobile';
+// import HeaderScroll from './components/header/header';
+
+// ToggleMenu();
+// HeaderScroll();
+
+Header();
