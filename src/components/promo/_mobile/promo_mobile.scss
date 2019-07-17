@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px) {
+    .promo {
+        background-image: url(./components/promo/img/ob2.jpg);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .promo {
+        background-image: url(./components/promo/img/ob3.jpg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .promo {
+        background-image: url(./components/promo/img/ob4.jpg);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .promo {
+        background-image: url(./components/promo/img/ob5.jpg);
+    }
+}

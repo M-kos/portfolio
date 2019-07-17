@@ -2,10 +2,11 @@
     padding: 15vw 10vw;
     width: 100%;
     height: 100vh;
-    background-image: url(./components/promo/img/puppy.jpg);
+    background-image: url(./components/promo/img/ob0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 @import './__description/promo__description.scss';
 @import './social/social.scss';
+@import './_mobile/promo_mobile.scss';
