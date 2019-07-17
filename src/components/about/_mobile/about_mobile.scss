@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 5vw;
+        grid-template-areas: 
+        "title"
+        "description"
+        "skills";
+        padding: 10vh 10vw;
+    }
+    .about__title {
+        text-align: center;
+    }
+
+}
