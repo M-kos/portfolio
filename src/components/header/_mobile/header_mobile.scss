@@ -1,0 +1,33 @@
+@media screen and (max-width: 992px) {
+    .header__mobile-btn {
+        display: block;
+    }
+    .navigation {
+        display: none;
+        width: 50vw;
+        height: 80vh;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.8;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+
+        &.show {
+            display: block;
+        }
+
+        .navigation-list {
+            flex-direction: column;
+
+            .navigation__elem {
+                width: 100%;
+                padding: 0;
+
+                .navigation__elem-link {
+                    color: rgb(255, 255, 255);
+                    padding: 7vw 22vh;
+                }
+            }
+        }
+    }
+}
