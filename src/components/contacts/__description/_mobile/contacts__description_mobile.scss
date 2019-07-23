@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+    .contacts__description {
+        grid-template-areas: 
+        "lc ph"
+        "ld pd"
+        "em web"
+        "ed wd";
+    }
+}
+@media screen and (max-width: 576px) {
+    .contacts__description {
+        grid-template-areas: 
+        "lc"
+        "ld"
+        "ph"
+        "pd"
+        "em"
+        "ed"
+        "web"
+        "wd";
+        text-align: center;
+
+        h3, p {
+            padding: 0 0 2vh 0;
+        }
+    }
+}

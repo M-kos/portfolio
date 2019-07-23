@@ -1,13 +1,39 @@
 .contacts__description {
-    display: table;
+    display: grid;
+    grid-template-areas: 
+    "lc ph em web"
+    "ld pd ed wd";
 
-    .table-row {
-        display: table-row;
-    }
     h3, p {
-        display: table-cell;
         padding: 0 4vw 4vh 0;
         white-space: nowrap;
         font-size: 0.9em;
     }
+
+    .location {
+        grid-area: lc;
+    }
+    .phone {
+        grid-area: ph;
+    }
+    .email {
+        grid-area: em;
+    }
+    .web {
+        grid-area: web;
+    }
+    .location-description {
+        grid-area: ld;
+    }
+    .phone-description {
+        grid-area: pd;
+    }
+    .email-description {
+        grid-area: ed;
+    }
+    .web-description {
+        grid-area: wd;
+    }
 }
+
+@import './_mobile/contacts__description_mobile.scss';
