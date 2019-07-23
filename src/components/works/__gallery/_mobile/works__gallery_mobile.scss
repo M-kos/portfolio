@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px) {
+    .works__gallery {
+    
+        .slide-page {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-column-gap: 1vw;
+            grid-row-gap: 1vh;
+        }
+    
+        .prev, .next {
+            width: 50%;
+            height: 7vh;
+            top: 100%;
+        }
+        .prev {
+            left: 0;
+        }
+        .next {
+            right: 0;
+        }
+    }
+}
