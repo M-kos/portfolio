@@ -50,4 +50,39 @@
     }
 }
 
+.works__modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    .image-container {
+        width: 50vw;
+        height: 50vw;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .close {
+        font-size: 2em;
+        position: absolute;
+        top: 18vh;
+        right: 18vw;
+        color: rgb(223, 223, 223);
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(172, 172, 172);
+        }
+    }
+}
+
 @import './_mobile/works__gallery_mobile.scss';

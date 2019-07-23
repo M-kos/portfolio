@@ -1,3 +1,5 @@
+import ShowModal from './__modal/works__modal_show';
+
 class ShowSlide {
     constructor(startIndex, element) {  
         this.element = element
@@ -48,6 +50,7 @@ class ShowSlide {
 function initSlider() {
     let gallery = document.querySelector('.works__gallery');
     new ShowSlide(0, gallery);
+    new ShowModal(gallery);
 }
 
 export default initSlider;
